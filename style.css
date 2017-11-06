@@ -3,10 +3,81 @@
 html,
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 17px
+	font-size: 17px;
 }
 
+body {
+	background: #36404b;
+	color: #fff;
+	padding: 0 40px;
+}
 
-img{
-	width: 100%
+.header {
+	margin: 40px 0;
+}
+
+.header .left {
+	display: inline-block;
+	width: 20%;
+}
+
+.header .right {
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+}
+
+.header h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.header hr {
+	border: 2px solid #fff;
+	width: 70%;
+}
+
+.logo {
+	width: 200px;
+}
+
+.authors {
+	background: #4fd7d0;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    color: #000;
+}
+
+.lead {
+	padding: 0 80px;
+	font-size: 20px;
+}
+
+p {
+	padding: 0 100px;
+}
+
+a {
+	color: #4fd7d0;
+}
+
+li {
+    margin-left: 120px;
+}
+
+.chart{
+	max-width: 100%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.chart-title {
+	text-align: center;
+	margin: 20px 0;
+    font-size: 24px;
 }
