@@ -62,6 +62,10 @@ p {
 	padding: 0 100px;
 }
 
+.summary {
+	text-align: center;
+}
+
 a {
 	color: #4fd7d0;
 }
